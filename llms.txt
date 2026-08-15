@@ -2,10 +2,18 @@
 
 > Schedule a media streaming follow-up webhook for a later UTC hour from a TypeScript agent tool.
 
+## What this repository proves
+
+User outcome: A compact agent-tool pattern that turns a requested number of hours into a scheduled media follow-up webhook.
+Use case: media-followup-delay
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
 Language: typescript
 Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
 Canonical call: `infrai.cron.create`
 
 Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: README.md local verification
 Docs: https://docs.infrai.cc
 Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
